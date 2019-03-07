@@ -17,10 +17,10 @@
 		pinmux {
 			function = "blsp_uart1";
 			//	TX, RX
-			pins = "gpio0", "gpio1",
+			pins = "gpio0", "gpio1";
 		};
 		pinconf {
-			pins = "gpio0", "gpio1",
+			pins = "gpio0", "gpio1";
 			drive-strength = <16>;
 			bias-disable;
 		};
@@ -29,10 +29,10 @@
 	blsp1_uart1_sleep: blsp1_uart1_sleep {
 		pinmux {
 			function = "gpio";
-			pins = "gpio0", "gpio1",
+			pins = "gpio0", "gpio1";
 		};
 		pinconf {
-			pins = "gpio0", "gpio1",
+			pins = "gpio0", "gpio1";
 			drive-strength = <2>;
 			bias-pull-down;
 		};
