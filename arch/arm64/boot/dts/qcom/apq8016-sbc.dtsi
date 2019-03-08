@@ -261,7 +261,7 @@
 
 			camera_rear@3b {
 				compatible = "ovti,ov5640";
-				reg = <0x78>; //Earlier build used 0x78...5645 used 0x76...would this be 0x3d?? Trying 3b first.
+				reg = <0x3b>; //Earlier build used 0x78...5645 used 0x76...would this be 0x3d?? Trying 3b first.
 
 				enable-gpios = <&msmgpio 34 GPIO_ACTIVE_HIGH>;
 				reset-gpios = <&msmgpio 35 GPIO_ACTIVE_LOW>;
